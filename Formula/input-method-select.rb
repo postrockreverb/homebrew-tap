@@ -3,16 +3,16 @@ class InputMethodSelect < Formula
   homepage "https://github.com/postrockreverb/input-method-select"
   license "MIT"
 
-  version "v1.0.0"
+  version "v1.0.1"
 
   on_arm do
     url "https://github.com/postrockreverb/input-method-select/releases/download/#{version}/dist-arm64.zip"
-    sha256 "b141243fb4cc360806aee147417a46e5532b27ad68af4d4b367bb05065e6f27e"
+    sha256 "0c3bee96dbed6cf325cbac3413796ec5afafedf51f281c8faead6160756f0702"
   end
 
   on_intel do
     url "https://github.com/postrockreverb/input-method-select/releases/download/#{version}/dist-x86_64.zip"
-    sha256 "40b40161299d52cf1376b3ef37643e41b7a38838da014be6a9f24c1d8df46043"
+    sha256 "faabba0404d85fe9a4564546cd058233e1fef150ebbfaf6b60e7aec3f8f50066"
   end
 
   def install
